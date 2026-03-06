@@ -1,9 +1,9 @@
 tperm :: [Char]
-tperm = "T: R U R' F' R' F R2 U' R' U' R U R' F'"
+tperm = "R U R' F' R' F R2 U' R' U' R U R' F'"
 
 aaperm :: [Char]
-aaperm = "Aa: x L2 D2 L' U' L D2 L' U L'"
+aaperm = "x L2 D2 L' U' L D2 L' U L'"
 
 main = do 
-  putStrLn tperm
-  putStrLn aaperm
+  print ("T: " ++ tperm)
+  print ("Aa: " ++ aaperm)
