@@ -5,5 +5,5 @@ aaperm :: [Char]
 aaperm = "x L2 D2 L' U' L D2 L' U L'"
 
 main = do 
-  putStrLn $ "T: " ++ tperm
-  putStrLn $ "Aa: " ++ aaperm
+  putStrLn $ "T: " <> tperm
+  putStrLn $ "Aa: " <> aaperm
